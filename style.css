@@ -2,6 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #bbb;
 }
 
 header {
@@ -17,10 +18,11 @@ h2 {
     margin: 0;
 }
 
-.main {
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
+main {
+    position: absolute;
+    left: 150px;
+    line-height: 40px;
+
 }
 
 .budget-summary {
@@ -57,6 +59,8 @@ button {
     width: 100px;
     display: flex;
     justify-content: center;
+    position: relative;
+    left: 50px;
 }
 
 button:hover {
