@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+h1,
+h2 {
+    margin: 0;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.budget-summary {
+    flex: 0 0 30%;
+}
+
+.summary-item {
+    margin-bottom: 10px;
+}
+
+.item-label {
+    font-weight: bold;
+}
+
+.transaction-list {
+    flex: 0 0 60%;
+}
+
+.add-transaction {
+    flex: 0 0 30%;
+}
+
+form {
+    display: grid;
+    grid-gap: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+}
